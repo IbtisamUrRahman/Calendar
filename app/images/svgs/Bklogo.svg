@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="1024px" viewBox="0 0 1440 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>BusinessLoginElement</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#DCF5FF" offset="0%"></stop>
+            <stop stop-color="#32EFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="52.1617944%" y1="4.57352487%" x2="52.1617944%" y2="62.8198615%" id="linearGradient-2">
+            <stop stop-color="#C8A6FF" stop-opacity="0.771088287" offset="0%"></stop>
+            <stop stop-color="#3A86FF" offset="99.9736064%"></stop>
+            <stop stop-color="#3A86FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="BusinessLoginElement" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-7" transform="translate(-162.000000, 52.000000)">
+            <path d="M1664,743.674493 C1576.66667,678.558164 1444.66667,660 1268,688 C1003,730 915,862 602,862 C393.333333,862 210,831.21 52,769.63 L52,1148 L1664,1148 L1664,743.674493 Z" id="Path-105" fill="url(#linearGradient-1)"></path>
+            <path d="M0.775193798,-1.13686838e-13 C-5.89147287,166.666667 30.4418605,276.333333 109.775194,329 C228.775194,408 282.775194,530 483.775194,588 C684.775194,646 759.275194,802 1131.77519,842 C1296.67764,859.707645 1387.3443,951.707645 1403.77519,1118 L13.7751938,1166.26737 L0.775193798,-1.13686838e-13 Z" id="Path-107" fill="#6894FF" opacity="0.329403832"></path>
+            <path d="M138,624.923913 C274.666667,606.923913 395.666667,619.59058 501,662.923913 C659,727.923913 905.5,856.923913 1166,830.923913 C1426.5,804.923913 1529,735.923913 1635,747.423913 C1705.66667,755.09058 1705.66667,924.343913 1635,1255.18391 L138,1255.18391 L138,624.923913 Z" id="Path-104" fill="url(#linearGradient-2)"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,46 @@
+.categoriesTable {
+    background-color: white;
+    padding: 50px;
+    height: 100%; 
+    width: 100%; 
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 5px;
+    margin-top: 60px; 
+}
+.spanLeft{
+    margin-left: 81px
+}
+
+.textRight{
+    text-align: right;
+}
+
+.black-bottom-line{
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.align-left{
+    text-align: left;
+}
+.categoriesRow{
+    width: 323px;
+}
+.unitsRow{
+    width:42px; 
+    text-align: right;
+}
+.patnerSalesRow{
+    width: 291px; 
+    text-align: right;
+}
+.runneSalesRow{
+    width: 272px;
+    text-align: right; 
+}
+.categoriesPreRow{
+    width: 220px;
+    text-align: right;
+}
+.pagination{
+    text-align: right; 
+    margin-top: 10px;
+}

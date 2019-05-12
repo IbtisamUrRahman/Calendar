@@ -1,0 +1,397 @@
+
+@font-face {
+    font-family: 'sofia_promedium';
+    src: url('./fonts/sofia_pro_medium-webfont.woff2') format('woff2'),
+         url('./fonts/sofia_pro_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.webAnalyticsText{
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-family: 'sofia_promedium';
+}
+
+.dasboardcontainer{
+    align-items: center;   
+    margin-left:2px;     
+    height: 100%;
+    background: #F8F8F8;
+}
+.icon{
+    margin-right: -50px;
+    margin-left: 80%;
+    margin-top: -35px;
+    width: 50px;
+    height: 18px;
+}
+.iconDiv{
+    margin-left: 30px;
+}
+.converstionRateIcon{
+    width: 50px;
+    height: 18px;
+    position: absolute;
+    margin-left: 22%;
+    margin-top: -10px;
+}
+.doughnutComIcon{
+    width: 50px;
+    height: 18px;
+    position: absolute;
+    /* margin-left: 260px; */
+    margin-top: -10px;
+    margin-left: 30%;
+}
+
+.orderByDeviceText{
+margin-top: 400px;
+padding: 43px;
+}
+
+.topProductText{
+margin-top: -35px;
+padding: 43px;
+}
+
+.orderByDeviceTable{
+    margin-top: -40px;
+    /* position: absolute; */
+    width: 80%;
+    margin-left: 40px;
+}
+
+.topProductsTable{
+    margin-top: -7%;
+    /* position: absolute; */
+    width: 80%;
+    margin-left: 40px;
+
+}
+.text-5xl{
+font-family: 'sofia_promedium'; 
+font-size: 60px
+}
+.totalFontsize{
+font-family: 'sofia_promedium'; 
+}
+.totalOrders{
+font-family: 'sofia_promedium'; 
+font-size: 25px;
+width: 230px
+}
+
+
+.titleTotal{
+padding: 10px;
+margin-bottom: 70px;
+/* font-size: 10px; */
+margin-top: -45px;
+
+}
+
+.cashTitle{
+    font-size: 60px;
+    font-family: 'sofia_promedium'; 
+    top: 10px;
+    margin-top: -20px;
+    padding: 7px;
+
+}
+.dollaSign{
+    font-size: 20px; 
+    position: absolute;
+    /* margin-right: -20px; */
+    margin-top: -10px;
+
+}
+
+.perTitle{
+    font-size: 30px;
+    margin-left: 100px;
+    padding: 10px;
+    margin-top: -100px;
+    position: absolute;
+    font-family: 'sofia_promedium'; 
+    padding: 15px;
+}
+
+.barDiv{
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+
+.orderText{
+font-family: 'sofia_promedium'; 
+font-size: 15px; 
+color: #8E8E8E;
+font-weight: normal;
+margin-top: -25px;
+}
+.mesuredOver{
+    font-family: 'sofia_promedium'; 
+    font-size: 15px; 
+    color: #8E8E8E;
+    font-weight: normal;
+    margin-top: -25px;
+    padding-top: 20px;
+
+    }
+.orderGrowth{
+font-family: 'sofia_promedium';
+font-size: 13px;
+color: #8E8E8E;
+position: absolute;
+margin-left: 100px;
+margin-top: -25px;
+
+/* font-weight: bold; */
+}
+.avaRageorder{
+    margin-left: 40px;
+}
+.ltv{
+    margin-left: 50px;
+}
+.ltvText{
+    font-size: 16px;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 10px;
+    color: #8E8E8E;
+}
+
+.storeText{
+    margin-top: 30px;
+   font-family: 'sofia_promedium';
+}
+.dashboardbackgroundColor{
+    background: #F8F8F8;    
+    height: 100%;
+}
+
+.dashboardsidebar {
+    width: 72px;
+    text-align: center;
+    background-color: white;
+    height: 100%;
+    padding-bottom: 30%;
+    position: fixed;
+    z-index: 100;
+}
+
+.dashboardsidebar i {
+    font-size: 23px;
+    margin-top: 4px;
+    color: rgba(0,0, 0, 0.3);
+}
+
+.dashboardContent {
+    padding-top: 166px;
+    padding-left: 104px;
+    padding-right: 40px;
+    margin-bottom: 0px;
+}
+
+.dashboardContent h1 {
+    margin: 0px;
+    width: 100%;
+}
+
+.dashboardLog  {
+    padding-top: 10px;
+}
+
+.headerBar {
+    height: 65px;    
+    text-align: right;
+    padding-top: 7px;
+    position: fixed;
+}
+.calenderPos {
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 10%;
+    margin-right: 100px;
+}
+.datebox{
+    display: flex; 
+    background-color: #3F89FB
+}
+.datebox div {
+    margin: 15px;
+   
+  }
+.sideBarPos {
+    margin-top:120px;
+}
+.charBar{
+    width: 20px; 
+    height: 20px;    
+    opacity: 0.5; 
+}
+
+.sidebarOptPadding{
+    margin-top: 10px;
+}
+
+.item {
+    text-align: center;    
+    text-decoration: none;    
+    display: inherit;
+    text-decoration: none;
+    width: 100%;
+    height: 40px;
+    padding-top: 6px;    
+}
+
+.item:hover{
+    background:#F3FDFC;
+}
+
+.item:active, .item.active{
+    border-right: #3F89FB solid 4px;
+    background-color: #F8F8F8;
+}
+.calendarDiv{
+    background-color: #F8F8F8;
+    width: 320px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 7px;
+    text-align: center;
+}
+.startCalendarDiv{
+    width: 130px;
+    margin-top: -29px;
+}
+
+.compareTxt p{
+    color: rgba(0,0, 0, 0.4);
+    margin-top: 0px;
+    margin-right: 15%;
+}
+
+.compareTo div{
+    text-align: right;
+
+}
+.oval {	box-sizing: border-box;	
+    height: 20px;	width: 20px;	
+    border: 1px solid #CFCFCF;}
+
+    .path-44 {	box-sizing: border-box;	height: 6px;	width: 1px;	border: 2px solid #CFCFCF;}
+
+.react-daterange-picker {
+    height: 35px;
+    width: 80%;
+    padding: 0px 15px;
+}
+.react-daterange-picker__wrapper {
+    border: 0px !important;
+}
+
+.react-daterange-picker__clear-button {
+    display: none;
+}
+
+.react-daterange-picker__calendar-button {
+    display: none;    
+}
+
+.calendarDiv i{
+    color: rgba(0,0, 0, 0.2);
+}
+.width-1-3{
+    width: 40%;
+}
+.width-1-5{
+    width: 70%;
+}
+
+.width-1-2{
+    width: 45%;
+}
+.width-1{
+    width: 90%;
+}
+.align-right{
+    text-align: right;
+}
+
+.align-left{
+    text-align: left;
+}
+th{
+    text-align: left;
+}
+th,tr{
+    height: 70px;
+}
+.gray-bottom-line{
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+.chartBarBG{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(168, 191, 226);
+}
+.chartBarBG:hover{
+    opacity:0.5; 
+}
+.chartValue{
+    color: #3F89FB;
+    font-size: 25px;
+    font-size: 16px;
+    margin-top: -25px;
+}
+.chartBarValue1{
+    width: 100%;
+    height: 20px;
+    background-color: #3F89FB;
+}
+.chartBarValue2{
+    width: 55%;
+    height: 20px;
+    background-color: #3F89FB;
+}
+.chartBarValue3{
+    width: 25%;
+    height: 20px;
+    background-color: #3F89FB;
+}
+.chartBarValue4{
+    width: 6.25%;
+    height: 20px;
+    background-color: #3F89FB;
+}
+.fullwidth{
+    width: 100%;
+    margin-right: 70px
+}
+.halfwidth{
+    width: 50%;
+  
+}
+.text-3xl{
+padding-left: 20px;
+padding: 20px;
+}
+.barChartTable{
+    width: 60%;
+    padding: 20px;
+}
+.center{
+    text-align: center;
+}
+.textcolorgreen{
+    color: #2AD4B4;
+}
+.textcolorred{
+    color: rgb(236, 86, 60);
+}

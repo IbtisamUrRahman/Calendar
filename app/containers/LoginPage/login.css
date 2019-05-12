@@ -1,0 +1,126 @@
+#login-page {
+  background-image: url("../../images/svgs/Bklogo.svg") ;     
+}
+/*
+  - bracket after class name
+  - space after colin
+  - no space between classes
+  - i put sofia sans-serif in global styles
+  - margins, always use bottom and pixels
+  - grabbed image dimensions from ninvision inpsector mode
+*/
+.login-body {
+  width: 500px;
+}
+.logo-img {
+  background-image: url("../../images/runner.png") ;    
+  width: 161px;
+  height: 47px;
+  margin-bottom: 50px;
+}
+.input {
+  width: 100%;
+  height: 55px;
+  width: 100%;
+  border-color: #CFCFCF;
+  border-style: solid;
+  padding-left: 100px;
+  cursor: pointer;
+}
+.label {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 30px;
+}
+.shadow-lg {
+  box-shadow: 4px 29px 12px -15px rgba(222,222,222,1);
+  margin-bottom: 30px;
+}
+.links {
+  margin-bottom: 30px;
+}
+.button-login {
+  background-color: #F83F40;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+/* / custom checkbox / */
+.cbx {
+  margin: auto;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+.cbx span {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translate3d(0, 0, 0);
+}
+.cbx span:first-child {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border-radius: 3px;
+  transform: scale(1);
+  vertical-align: middle;
+  border: 1px solid #9098A9;
+  transition: all 0.2s ease;
+}
+.cbx span:first-child svg {
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 16px;
+  stroke-dashoffset: 16px;
+  transition: all 0.3s ease;
+  transition-delay: 0.1s;
+  transform: translate3d(0, 0, 0);
+}
+.cbx span:first-child:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #F54045;
+  display: block;
+  transform: scale(0);
+  opacity: 1;
+  border-radius: 50%;
+}
+.cbx span:last-child {
+  padding-left: 8px;
+}
+.cbx:hover span:first-child {
+  border-color: #F54045;
+}
+
+.inp-cbx:checked + .cbx span:first-child {
+  background: #F54045;
+  border-color: #F54045;
+  animation: wave 0.4s ease;
+}
+.inp-cbx:checked + .cbx span:first-child svg {
+  stroke-dashoffset: 0;
+}
+.inp-cbx:checked + .cbx span:first-child:before {
+  transform: scale(3.5);
+  opacity: 0;
+  transition: all 0.6s ease;
+}
+.check-display{
+    display: none;
+}
+svg{
+    width: 12px;
+    height: 10px;
+}
+@keyframes wave {
+  50% {
+    transform: scale(0.9);
+  }
+}

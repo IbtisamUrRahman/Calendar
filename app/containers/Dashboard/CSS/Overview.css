@@ -1,0 +1,433 @@
+@font-face {
+    font-family: 'sofia_promedium';
+    src: url('./fonts/sofia_pro_medium-webfont.woff2') format('woff2'),
+         url('./fonts/sofia_pro_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.totalSalesContainer, .converRateContainer .doughnutContainer{
+    padding-top: 40px;
+    border: #FD8481;
+  
+   }
+
+.totalFontsize {
+    padding-top:35px;
+}
+
+.totalFontsize h2, .converRateContent h2{
+    font-size: 25px;
+}
+
+.totalFontsize h1{
+    color: #3F89FB;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+.totalFontsize p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.chartContainer {
+    height: 400px;
+    width: 65%; 
+    border-radius: 5px; 
+    border: 1px solid rgb(202, 202, 202);
+}
+
+.chartData {
+    height: 100% !important;
+    text-align: center;
+    width: 98%;
+    margin-top: -20px;
+    margin-left: 20px;
+
+}
+
+.chartjs-render-monitor{
+    height: 100% !important;
+    text-align: center;
+    padding: 20px;
+}
+
+.totalSalesHeight {
+    height: 400px;
+}
+
+.totalOrders {
+    margin:35px 20px;
+    background-color: white;   
+    padding: 20px;
+    height: 100%;
+    border-radius: 3%;
+    border: 1px solid rgb(202, 202, 202);
+    width: 25%;
+
+}
+
+.totalStoreVits{
+    margin:35px 20px;
+    background-color: white;   
+    padding: 40px;
+    height: 100%;
+    border-radius: 3%;
+    border-color: black;
+    border: 1px solid #CFCFCF;
+    width: 30%;
+}
+.totalStoreVistsText{
+    font-size: 25px; 
+    font-family: 'sofia_promedium';
+}
+.sessionsBySource{
+    font-size: 25px; 
+    font-family: 'sofia_promedium';
+    padding: 20px;
+}
+
+.sessionsBySourceTable{
+    width: 90%;
+    margin-left: 25px;
+}
+
+.storeVistsGrowth{
+font-family: 'sofia_promedium'; 
+font-size: 15px; 
+color: #8E8E8E;
+font-weight: normal;
+text-align: right;
+}
+
+.storeVistsText{
+    font-family: 'sofia_promedium'; 
+    font-size: 23px; 
+    color: #8E8E8E;
+    font-weight: normal;
+    text-align: left;
+    }
+ .totalSalesOredersText{
+    font-family: 'sofia_promedium'; 
+    font-size: 23px; 
+    color: #8E8E8E;
+    font-weight: normal;
+    /* text-align: left; */
+    margin-left: 10px;
+ } 
+ 
+ .totalSalesGrowthText{
+    font-family: 'sofia_promedium'; 
+    font-size: 15px; 
+    color: #8E8E8E;
+    font-weight: normal;
+    text-align: right;
+ }
+
+.storeVistsPer{
+    position: absolute;
+    margin-left: 7%;
+    font-size: 30px;
+    font-family:'Sofia_promedium';
+}
+
+.storeVistsIcon{
+    width: 50px;
+    height: 18px;
+    position: absolute;
+    margin-top: -19px;
+    margin-left: 20%;
+}
+
+.totalStoreBars{
+    position: absolute;
+    margin-top: -3%;
+    margin-left: 6.8%;
+
+}
+
+.totalSalesBars{
+    position: absolute;
+    margin-top: -3%;
+    margin-left: 5%;
+
+}
+.totalSalesPerText{
+    position: absolute;
+    margin-left: 5%;
+    font-size: 30px;
+}
+.totalSalesNumber{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 15px;
+}
+.totalSalesAvarageNumber{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 20px;
+}
+
+.totalSalesAvarageNumberSpan{
+    font-size: 25px;
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 15px;
+}
+
+.searchInput{
+    margin-bottom: 50px;
+    width: 300px;
+    margin-left: 500px;
+}
+.searchButton{
+    margin-left: 50px;
+}
+.downloadCsvButton{
+    margin-left: 250px;
+}
+.productsTable {
+    background-color: white;
+    padding: 20px;
+    height: 100%;
+}
+
+.totalOrders h2{
+    font-size: 26px;
+}
+
+.totalOrders p{
+    font-size:16px;
+}
+
+.orderTxt {
+    text-align: left;
+}
+
+.lineChart {
+    text-align: right;
+}
+
+.lineChart h2 {
+    color: #2AD4B4;
+}
+
+.lineChart img{
+    width: 50px;
+    margin-top: 10px;
+}
+
+.lineChart p{
+    margin-top: 20px;
+}
+
+.orderTxt h2 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 56px
+}
+
+.orderTxt p {
+    font-size: 20px;
+}
+
+.convertRateHeight {
+    height: 600;
+}
+
+.converRateContent {
+    font-family: 'sofia_promedium'; 
+    margin:35px 20px;
+    background-color: white;   
+    padding: 20px;
+    /* height: 100%; */
+    height: 570px;
+    padding-bottom:100px; 
+    border-radius: 10px;
+    border: 1px solid #CFCFCF;
+
+}
+
+.sessionsContent{
+    font-family: 'sofia_promedium'; 
+    margin:35px 20px;
+    background-color: white;   
+    padding: 20px;
+    /* height: 100%; */
+    height: 570px;
+    padding-bottom:100px; 
+    border-radius: 10px;
+    border: 1px solid #CFCFCF;
+}
+.doughnutContent {
+    margin:35px 20px;
+    background-color: white;   
+    padding: 10px;
+    height: 100%;
+    padding-bottom:50px;
+    font-size: 16px;
+    font-family: 'sofia_promedium';  
+    border-radius: 9px;
+    border: 1px solid #CFCFCF;
+}
+
+.topProductsContent{
+    margin:35px 20px;
+    background-color: white;   
+    padding: 10px;
+    height: 100%;
+    padding-bottom:50px;
+    font-size: 16px;
+    font-family: 'sofia_promedium';  
+    border-radius: 9px;
+    border: 1px solid #CFCFCF;
+}
+.doughnutIcon{
+    padding: 5px;
+    /* position: absolute; */
+    margin-left: 20%;
+}
+.totalSalesIcon{
+    padding: 5px;
+    /* position: absolute; */
+    margin-left: -94%;
+
+}
+
+.sessionsIcon{
+    padding: 5px;
+    /* position: absolute; */
+    margin-left: 18%;
+}
+
+.doughnutHight {
+    width: 1200px; 
+    /* height: 100%; */
+    width: 800px;
+    margin-left: -83px;
+    position: absolute;
+    margin-top: 20px; 
+}
+
+.conversationRate {
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.conversationRate1 {
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.text-con{
+    font-family: 'sofia_promedium'; 
+    font-size: 16px;
+    color: #8E8E8E;
+}
+.text-span{
+    font-family: 'sofia_promedium'; 
+    font-size: 16px;
+    color: #8E8E8E; 
+    position: absolute;
+    margin-top: -19px;
+}
+.compaignSpan{
+    position: absolute;
+    font-size: 14px;
+    /* margin-top: -7px; */
+    font-family: 'sofia_promedium'; 
+}
+.compaignSpan1{
+    position: absolute;
+    font-size: 15px;
+    margin-top: -25px;
+    font-family: 'sofia_promedium'; 
+
+}
+
+.rateBlueColor h2{
+    font-size: 60px;
+    color:#3F8AFE;
+    font-weight: 400;
+}
+
+.rateRedColor p{
+    font-size: 20px;
+    color:#FD8481;
+    margin-top: 40px;
+    text-align: right;
+}
+
+.tableheader P{
+    font-size: 20px;
+    color: rgba(0,0, 0, 0.5)
+}
+
+.conversationtableview {
+    width: 100%;
+    margin-top: 73px
+}
+
+.conversationtableview td{
+    font-size: 20px;
+}
+
+.conversationtableview img{
+    width: 100%;
+}
+
+.vgreenbar1{
+    height: 40%;
+    width: 15px;    
+    background-color: #2AD4B4;
+    border-radius: 5px;    
+    margin-top: 39px;
+}
+
+.vgreenbar2{
+    height: 80%;
+    width: 15px;
+    background-color: #2AD4B4;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+.vgreenbar3{
+    height: 100%;
+    width: 15px;
+    background-color: #2AD4B4;
+    border-radius: 5px;
+}
+.vredbar1{
+    height: 100%;
+    width: 15px;    
+    background-color: rgb(236, 86, 60);
+    border-radius: 5px;    
+    margin-top: 0px;
+}
+
+.vredbar2{
+    height: 80%;
+    width: 15px;
+    background-color: rgb(236, 86, 60);
+    border-radius: 5px;
+    margin-top: 12px;
+}
+.vredbar3{
+    height: 40%;
+    width: 15px;
+    background-color: rgb(236, 86, 60);
+    border-radius: 5px;    
+    margin-top: 39px;
+}
+.right{
+    text-align: right;
+}
+
+
+
+/* .barChart {
+    width: 20px;
+}
+.barChart div{
+    margin:0px;
+} */
